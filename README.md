@@ -1,19 +1,12 @@
 # Aura Wheel Studio — client demo
 
-Responsive static site. No build step, npm packages, backend, or API keys required.
+Static responsive site. Upload the **contents** of this folder to the root of your GitHub Pages repository (index.html must be at the publishing root).
 
-## Publish on GitHub Pages
-1. Create a public GitHub repository (e.g. `aura-wheel-studio-demo`).
-2. Upload **the contents of this folder** to the repository root, including `index.html`, `style.css`, `script.js`, and `assets/`.
-3. In repository **Settings → Pages**, choose **Deploy from a branch**, branch `main`, folder `/ (root)`, and save.
-4. Wait for GitHub to display the published URL.
+## Hero alignment fix (v2)
+- Desktop: focal point moved toward the racing cars, with left-to-right text contrast gradient.
+- Mobile: independent background positioning and vertical gradient; copy anchored to lower portion, so the cars remain visible above the headline.
+- Viewport-aware mobile hero height and smaller type to avoid clipping.
 
-## Before presenting as a production site
-- Replace concept/mockup-derived photographs with real licensed business photographs.
-- Replace the cropped screenshot logo with the owner's original high-resolution/transparent logo.
-- Confirm business address, timings, services, products and contact information.
-- WhatsApp CTA uses the business's publicly displayed `wa.me/message/A3HXCSYQTDALP1` link; test it on mobile.
-- Reel links to Instagram; playback requires Instagram and may require sign-in. The cover is a cropped screenshot, not a video file.
-- Check rights and obtain client permission before public commercial use of business content.
+If your GitHub Pages site still displays the previous hero, refresh with cache cleared or wait for the deployment to complete.
 
-This is a visual demo, not a transactional shop. It does not take payments or reservations.
+Demo assets are illustrative. Confirm operating hours, precise location, inventory and photography with the client before launch.
