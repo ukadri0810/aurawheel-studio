@@ -39,3 +39,10 @@
 .hero-bg{filter:none!important;transform:none!important}
 @media(min-width:701px){.hero-bg{background-position:55% center!important}}
 @media(max-width:700px){.hero-bg{background-size:100% 100%,cover!important;background-position:center,62% 22%!important}}
+
+/* V6: User-supplied original photography; preserve aspect ratio and focal points. */
+.hero-bg{background-image:linear-gradient(90deg,rgba(0,0,0,.91) 0%,rgba(0,0,0,.65) 42%,rgba(0,0,0,.12) 100%),url('assets/hero-clean.jpg')!important;background-size:cover!important;background-position:60% center!important}
+@media(max-width:700px){
+.hero{min-height:740px;min-height:max(740px,calc(100svh - 99px));align-items:flex-end}
+.hero-bg{background-image:linear-gradient(to bottom,rgba(0,0,0,.05) 0%,rgba(0,0,0,.15) 25%,rgba(0,0,0,.88) 58%,#090909 92%),url('assets/hero-clean.jpg')!important;background-size:100% 100%,auto 48%!important;background-position:center,center 0!important;background-repeat:no-repeat!important}
+}
