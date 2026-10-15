@@ -1,9 +1,5 @@
-# Aura Wheel Studio — Website demo V4
+Aura Wheel Studio — Image clarity update
 
-## Hero fix
-The previous hero images were taken from a website mockup and had the headline/buttons baked into the JPEG. Those images are no longer used for the hero. The hero now uses `assets/hero-clean.jpg`, a racing photo without baked-in text, and renders the headline only once in real HTML.
-
-## Deploy
-Upload the *contents* of this ZIP to the root of your GitHub Pages repository, replacing `style.css` and uploading `assets/hero-clean.jpg`. Commit, wait for Pages deployment, then hard-refresh. If the old image persists, confirm the new CSS is deployed.
-
-Demo imagery; replace with original studio photography before production launch.
+Upload all files to the GitHub Pages repository root.
+The hero and card photos were upscaled and sharpened from the existing low-resolution demo assets. Upscaling cannot recreate original missing photographic detail. For a truly crisp final site, replace assets/hero-clean.jpg and assets/card1.jpg through card5.jpg with original high-resolution photographs (ideally 2000+ pixels wide).
+The design remains a demo; image assets may not depict the real premises.
