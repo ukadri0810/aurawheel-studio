@@ -23,3 +23,11 @@
 .hero h1{font-size:clamp(56px,13vw,83px)}
 }
 @media(min-width:701px){.hero-bg{background-position:center center;background-size:cover}}
+/* V4: Hero photography contains NO embedded headlines, logos or buttons.
+   All typography is live HTML and appears exactly once. */
+.hero-bg{background-image:linear-gradient(90deg,rgba(0,0,0,.90) 0%,rgba(0,0,0,.70) 40%,rgba(0,0,0,.20) 100%),url('assets/hero-clean.jpg')!important;background-size:cover!important;background-position:center 52%!important;background-repeat:no-repeat!important;transform:none!important}
+@media(max-width:700px){
+.hero{min-height:760px;min-height:max(760px,calc(100svh - 99px));padding:45px 6% 75px;align-items:flex-end}
+.hero-bg{background-image:linear-gradient(to bottom,rgba(0,0,0,.06) 0%,rgba(0,0,0,.25) 27%,rgba(0,0,0,.91) 57%,#090909 94%),url('assets/hero-clean.jpg')!important;background-size:100% 100%,auto 55%!important;background-position:center,center top!important;background-repeat:no-repeat!important}
+.hero-content{margin:0 0 25px;padding:0}.hero h1{font-size:clamp(55px,13vw,83px)}
+}
